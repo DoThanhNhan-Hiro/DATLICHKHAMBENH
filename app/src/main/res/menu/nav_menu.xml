@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home_user"
+        android:icon="@drawable/ic_home"
+        android:title="Trang Chủ" />
+    <item
+        android:id="@+id/nav_file"
+        android:icon="@drawable/img_medical_records"
+        android:title="Hồ Sơ Bệnh Án" />
+    <item
+        android:id="@+id/nav_booking_history"
+        android:icon="@drawable/img_booing_history"
+        android:title="Lịch Sử Đặt Lịch Khám Bệnh" />
+    <item
+        android:id="@+id/nav_exit"
+        android:icon="@drawable/ic_logout"
+        android:title="Đăng Xuất" />
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bevietnampro_medium"
+        android:gravity="center"
+        android:text="Are You Sure?"
+        android:textColor="#000"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_yes"
+            android:background="#37FF30"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/bevietnampro_medium"
+            android:gravity="center"
+            android:text="Yes"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_no"
+            android:background="#ff00"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/bevietnampro_medium"
+            android:gravity="center"
+            android:text="No"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

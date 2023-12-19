@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "586992874456",
+    "project_id": "datlichkham-d41f5",
+    "storage_bucket": "datlichkham-d41f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586992874456:android:437b8d0dc582596fe178ad",
+        "android_client_info": {
+          "package_name": "com.example.datlichkham"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzIEmblxu8-65MStjQIuo9o-Dc-g-lT6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

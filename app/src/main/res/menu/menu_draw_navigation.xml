@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item android:title="Quản lí">
+            <menu>
+                <item
+                    android:id="@+id/list_order_today"
+                    android:title="Danh sách đặt lịch hôm nay"
+                    app:showAsAction="always"
+                    android:icon="@drawable/list_order_today"/>
+                <item
+                    android:id="@+id/m_managerDoctor"
+                    android:title="Quản lí bác sĩ"
+                    android:icon="@drawable/open_door"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/m_managerTimeWork"
+                    android:title="Quản lí ca làm việc"
+                    android:icon="@drawable/open_door"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/m_managerCategory"
+                    android:title="Quản lí loại dịch vụ khám"
+                    android:icon="@drawable/open_door"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/m_managerService"
+                    android:title="Quản lí chuyên khoa"
+                    android:icon="@drawable/open_door"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/m_managerRoom"
+                    android:title="Quản lí phòng khám"
+                    android:icon="@drawable/open_door"
+                    app:showAsAction="always" />
+            </menu>
+        </item>
+    </group>
+
+    <group>
+        <item android:title="Tài khoản">
+            <menu>
+                <item android:id="@+id/m_logOut"
+                    android:icon="@drawable/ic_logout"
+                    app:showAsAction="always"
+                    android:title="Đăng xuất"/>
+            </menu>
+        </item>
+    </group>
+</menu>

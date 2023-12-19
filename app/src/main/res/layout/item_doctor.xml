@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/background_rooms"
+    android:padding="16dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgDoctor"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/imgdoctor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/imgDoctor"
+        app:layout_constraintTop_toTopOf="@+id/imgDoctor">
+
+        <TextView
+            android:id="@+id/tvNameDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đoàn Xuân Tuấn"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvNameService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chuyeen khoa: kham thai" />
+
+        <TextView
+            android:id="@+id/tvNameRoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phong lam viec: P123" />
+
+        <TextView
+            android:id="@+id/tvTimeWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ca lam viec : Buoi sang" />
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thac si trong nghanh bac si" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnUpdateDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Sửa"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

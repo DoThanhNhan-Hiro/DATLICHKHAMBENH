@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/background_rooms">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/timeworkdetail"
+        android:layout_gravity="center"
+        android:layout_marginEnd="16dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:id="@+id/tvTimeWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buổi sáng"
+            />
+
+        <TextView
+            android:id="@+id/tvTimeWorkDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:12"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvUpdateTimeWorkDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sửa"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="#0277BD"/>
+
+</LinearLayout>
